@@ -11,7 +11,7 @@ from tkinter import ttk, messagebox
 from bs4 import BeautifulSoup
 from webdriver_manager.chrome import ChromeDriverManager
 import nltk
-
+import logging
 # Скачиваем словарь для анализа тональности 
 nltk.download('vader_lexicon')
 
